@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="onboardingAVM" type="com.skotlin.app.modules.onboardinga.data.viewmodel.OnboardingAVM"/>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintGroup16"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <com.asksira.loopingviewpager.LoopingViewPager
+            android:id="@+id/imageSliderGroup3"
+            android:layout_height="@dimen/_767pxv"
+            android:layout_width="0dp" app:autoScroll="true"
+            app:isInfinite="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:scrollInterval="5000"/>
+
+        <com.asksira.loopingviewpager.indicator.CustomShapePagerIndicator
+            android:id="@+id/indicatorGroup1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_27pxv"
+            android:layout_marginEnd="@dimen/_165pxh"
+            android:layout_marginStart="@dimen/_164pxh"
+            android:layout_marginTop="@dimen/_35pxv"
+            android:layout_width="wrap_content"
+            app:drawable_normal="@drawable/indicator_unselected_bg_white_a700_radius_8"
+            app:drawable_selected="@drawable/indicator_selected_bg_bluegray_700_radius_8"
+            app:indicator_size="@dimen/_5pxh"
+            app:indicator_spacing="@dimen/_8pxh"
+            app:layout_constraintBottom_toBottomOf="@+id/imageSliderGroup3"
+            app:layout_constraintEnd_toEndOf="@+id/imageSliderGroup3"
+            app:layout_constraintStart_toStartOf="@+id/imageSliderGroup3" app:layout_constraintTop_toBottomOf="@+id/btnContinue"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnContinue"
+            android:layout_height="@dimen/_60pxv"
+            android:layout_marginEnd="@dimen/_32pxh"
+            android:layout_marginStart="@dimen/_32pxh"
+            android:layout_marginTop="@dimen/_638pxv"
+            android:layout_width="0dp"
+            android:paddingBottom="@dimen/_16pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+            android:text="@string/lbl_continue"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageSliderGroup3"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_continue"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">s3-kotlin</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_i_m_super_fast">I\u2019m Super Fast</string>
+<string name="lbl_continue">Continue</string>
+<string name="lbl_previous">Previous</string>
+<string name="lbl_onboarding_a">Onboarding A</string>
+<string name="msg_made_to_rock_yo">Made to rock your mobile</string>
+<string name="lbl_next">Next</string>
+<string name="msg_check_your_app">"Check your app's UI from the below demo screens of your app."</string>
+<string name="lbl_app_navigation">App Navigation</string>
+<string name="msg_lorem_ipsum_is">Lorem ipsum is a dummy text in advertising since lorem ipsum years</string>
+<string name="msg_turn_off_the_li">Turn off the lights! Make it darker</string>
+<string name="lbl_onboarding_aa">Onboarding AA</string>
+<string name="lbl_dark_mode_ready">Dark Mode Ready</string>
+<string name="msg_this_contact_has_no_phone_nu">This contact has no phone number</string>
+</resources>
